@@ -15,7 +15,7 @@ public class BaseTest implements IautoConst {
 	public void InitApp() {
 		System.setProperty(CHROME_KEY, CHROME_VALUE);
 	}
-
+//beforeannotation
 	@BeforeMethod
 	public void openApp() {
 
