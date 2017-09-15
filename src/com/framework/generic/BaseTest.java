@@ -16,6 +16,7 @@ public class BaseTest implements IautoConst {
 		System.setProperty(CHROME_KEY, CHROME_VALUE);
 	}
 //beforeannotation
+	
 	@BeforeMethod
 	public void openApp() {
 
@@ -24,7 +25,7 @@ public class BaseTest implements IautoConst {
 		driver.get("http://www.dhtmlgoodies.com/submitted-scripts/i-google-like-drag-drop/index.html");
 
 	}
-
+//after method
 	@AfterMethod
 	public void closeApp() {
 		driver.close();
