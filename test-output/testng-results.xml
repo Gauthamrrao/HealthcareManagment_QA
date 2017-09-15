@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15280" started-at="2017-09-15T10:36:32Z" finished-at="2017-09-15T10:36:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15280" started-at="2017-09-15T10:36:32Z" finished-at="2017-09-15T10:36:47Z">
+      <class name="com.framework.test.draganddroptest">
+        <test-method status="PASS" signature="InitApp()[pri:0, instance:com.framework.test.draganddroptest@2b98378d]" name="InitApp" is-config="true" duration-ms="10" started-at="2017-09-15T16:06:32Z" finished-at="2017-09-15T16:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitApp -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.framework.test.draganddroptest@2b98378d]" name="openApp" is-config="true" duration-ms="4683" started-at="2017-09-15T16:06:32Z" finished-at="2017-09-15T16:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="drag()[pri:0, instance:com.framework.test.draganddroptest@2b98378d]" name="drag" duration-ms="10457" started-at="2017-09-15T16:06:37Z" finished-at="2017-09-15T16:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drag -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.framework.test.draganddroptest@2b98378d]" name="closeApp" is-config="true" duration-ms="120" started-at="2017-09-15T16:06:47Z" finished-at="2017-09-15T16:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.framework.test.draganddroptest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
